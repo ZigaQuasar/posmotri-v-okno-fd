@@ -83,6 +83,7 @@ ol {
 .search-form {
   display: flex;
   gap: 40px;
+  line-height: 22px;
 }
 
 .search-form__fieldset {
@@ -92,8 +93,7 @@ ol {
 .search-form__fieldset-title {
   margin-bottom: 5px;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: inherit;
 }
 
 .search-form__label {
@@ -106,12 +106,12 @@ ol {
 .search-form__textfield {
   width: 225px;
   border: 0;
-  border-block: 1px solid rgb(255,255,255);
-  color: rgba(255, 255, 255, 0.7);
+  border-block: 1px solid currentColor;
+  color: inherit;
   font-family: inherit;
-  font-weight: 400;
+  font-weight: inherit;
   font-size: inherit;
-  line-height: 22px;
+  line-height: inherit;
   background-color: transparent;
   appearance: none;
 }
@@ -171,12 +171,12 @@ ol {
 }
 
 .button {
-  border: 1px solid rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
+  border: 1px solid currentColor;
+  color: inherit;
   font-family: inherit;
   font-weight: 700;
   font-size: inherit;
-  line-height: 22px;
+  line-height: inherit;
   background-color: transparent;
   cursor: pointer;
   appearance: none;
@@ -246,7 +246,7 @@ ol {
 
 .content__card-link {
   display: block;
-  color: rgb(255,255,255);
+  color: inherit;
   text-decoration: none;
 }
 
@@ -313,6 +313,7 @@ ol {
   margin-top: 30px;
   margin-bottom: 2px;
   margin-left: 3px;
+  line-height: 22px;
 }
 
 .visually-hidden {
